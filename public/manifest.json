@@ -1,0 +1,54 @@
+{
+  "name": "DocSalam - Plateforme de santé",
+  "short_name": "DocSalam",
+  "description": "Votre santé, notre priorité. Consultez des médecins en ligne et prenez rendez-vous facilement.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#16a34a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/img/19.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/19.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/14.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["health", "medical"],
+  "shortcuts": [
+    {
+      "name": "Trouver un médecin",
+      "short_name": "Médecins",
+      "description": "Trouvez rapidement un médecin disponible",
+      "url": "/doctors",
+      "icons": [{ "src": "/img/19.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Mes rendez-vous",
+      "short_name": "RDV",
+      "description": "Voir mes rendez-vous à venir",
+      "url": "/dashboard/patient",
+      "icons": [{ "src": "/img/19.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Urgences",
+      "short_name": "Urgences",
+      "description": "Services d'urgence 24/7",
+      "url": "/emergency",
+      "icons": [{ "src": "/img/19.png", "sizes": "192x192" }]
+    }
+  ]
+}
